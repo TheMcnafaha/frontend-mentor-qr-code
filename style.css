@@ -19,6 +19,10 @@
 
 }
 
+.big-container{
+    width: 90%;
+    margin: 0 auto;
+}
 .qr-comp{
     max-width: 375px;
     border-radius: 15px;
