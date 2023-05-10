@@ -1,9 +1,16 @@
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 .container{
     max-width: 80%;
     margin: 0 auto;
     background-color: #fff;
     padding: 1em;
     border-radius: 15px;
+
 }
 
 .qr-img{
@@ -14,6 +21,10 @@
 
 .qr-comp{
     max-width: 375px;
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 1em;
+    box-shadow: 2px 8px 16px 0px rgba(0,0,0,0.2);
 }
 /* miss me with BEM, all my homies hate BEM */
 body{
@@ -48,8 +59,16 @@ footer{
 }
 
 @media (min-width:1440px){
-
-     .qr-comp{
-        
+    body{
+        background-color: white;
+        display: flex;
+        justify-content: center;
+    }
+     .big-container{
+        background-color: hsl(212, 45%, 89%) ;
+        width: 90%;
+        padding: 8em;
+        margin: 5em auto;
+        box-shadow: 2px 8px 16px 0px rgba(0,0,0,0.2);
      }
 }
