@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+
+.layout{
+    display: flex;
+    justify-content: space-around;
+}
 .container{
     max-width: 80%;
     margin: 0 auto;
@@ -56,10 +61,10 @@ p{
 }
 
 footer{
-    width: 21em;
     margin: 0 auto;
-    font-family: comic neue;
-    text-align: justify;
+    text-align: center;
+    margin: 1em 0;
+    align-self: flex-end;
 }
 
 @media (min-width:1440px){
