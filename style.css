@@ -42,8 +42,6 @@ body{
     flex-flow: column;
     justify-content: space-evenly;
     padding: 1em 0;
-    /* Lord KP forgive me for my view port sins */
-    height: 100vh;
 }
 
 article{
@@ -61,10 +59,10 @@ p{
 }
 
 footer{
+    font-family: Outfit;
     margin: 0 auto;
     text-align: center;
     margin: 1em 0;
-    align-self: flex-end;
 }
 
 @media (min-width:1440px){
@@ -75,8 +73,8 @@ footer{
     }
      .big-container{
         background-color: hsl(212, 45%, 89%) ;
-        width: 90%;
-        padding: 8em;
+        width: 85%;
+        padding: 6em 8em;
         margin: 5em auto;
         box-shadow: 2px 8px 16px 0px rgba(0,0,0,0.2);
      }
