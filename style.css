@@ -58,18 +58,23 @@ p{
     color: hsl(220, 15%, 55%);
 }
 
-footer{
+.attribution{
     font-family: Outfit;
     margin: 0 auto;
     text-align: center;
-    margin: 1em 0;
+   margin-top: 1em;
 }
 
+.flex-vh-center{
+     /* forgive me Lord KP, for i have viewported  */
+     height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
 @media (min-width:1440px){
     body{
-        background-color: white;
-        display: flex;
-        justify-content: center;
+        background-color: #fff;
     }
      .big-container{
         background-color: hsl(212, 45%, 89%) ;
