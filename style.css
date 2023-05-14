@@ -62,8 +62,13 @@ p{
     margin: 0 auto;
     text-align: center;
    margin-top: 1em;
+  
 }
-
+/* okay fine, ill concede once */
+.attribution__text{
+    font-size: 1.125rem;
+    font-weight: 100;
+}
 .flex-vh-center{
      /* forgive me Lord KP, for i have viewported  */
      height: 100vh;
